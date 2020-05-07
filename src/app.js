@@ -5,6 +5,7 @@ const { uuid } = require("uuidv4");
 
 const app = express();
 
+
 app.use(express.json());
 app.use(cors());
 
@@ -16,12 +17,6 @@ app.get("/repositories", (request, response) => {
 
 app.post("/repositories", (request, response) => {
   const { title, url, techs } = request.body;
-
-  const checkRepoExists = repositories.find(repository => repository.url === url)
-
-  if (checkRepoExists) {
-    return response.status(400).json({ error: "Repository already exists"});
-  }
   
   const repository = 
   { id: uuid(), 
