@@ -1,7 +1,7 @@
 ![bootcamp-keep-coding](https://user-images.githubusercontent.com/58606794/80931247-e2503080-8d8e-11ea-81c7-67ca728fb2a1.png)
 
 
-# Goostack desafio 02 - Conceitos Node.js
+# Gostack desafio 02 - Conceitos Node.js
 
 ## Tecnologias utilizadas:
 - [Node](https://nodejs.org/en/)
